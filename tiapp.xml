@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+	<id>com.test.yt</id>
+	<name>YoutubePlayer</name>
+	<version>1.0</version>
+	<publisher>not specified</publisher>
+	<url>unspecified</url>
+	<description/>
+	<copyright>not specified</copyright>
+	<icon>appicon.png</icon>
+	<fullscreen>false</fullscreen>
+	<navbar-hidden>false</navbar-hidden>
+	<analytics>false</analytics>
+	<guid>80e9a5c9-1678-4218-9bbb-36a5d730376e</guid>
+	<property name="ti.ui.defaultunit" type="string">dp</property>
+	<property name="run-on-main-thread" type="bool">true</property>
+	<ios></ios>
+	<android xmlns:android="http://schemas.android.com/apk/res/android"></android>
+	<modules>
+		<module platform="android">hyperloop</module>
+		<module platform="iphone">hyperloop</module>
+	</modules>
+	<deployment-targets>
+		<target device="android">true</target>
+	</deployment-targets>
+	<sdk-version>7.4.0.GA</sdk-version>
+	<plugins>
+		<plugin version="1.0">ti.alloy</plugin>
+	</plugins>
+	<property name="appc-app-id" type="string">5a3e61f34458fb4f595e8aaf</property>
+</ti:app>
